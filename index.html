@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endless Extension</title>
+</head>
+<body>
+
+    <h1>This site is under construction.</h1>
+    <h3>While waiting,watch this!</h3>
+
+    <iframe width="556"
+     height="320"
+      src="https://www.youtube.com/embed/jeM9yRJwKl8"
+       title="1 hour of 3D Saul Goodman to slowly lose your sanity over (3D)"
+        frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+
+    <h2>Here's some cute cat photos!</h2> 
+    <h4>this has to be a site for a mod btw...</h4>
+    <img
+    src="images/catto.png"
+    alt="sorry:("
+    title="catto">
+
+    <img
+    src="images/jumpy_catto.png"
+    alt="sorry:("
+    title="jumpy catto">
+
+    <img
+    src="images/catto2.png"
+    alt="sorry:("
+    title="another catto">
+
+
+    <h3>Time until Christmas morning</h3>
+
+    <p id="demo"></p>
+    <script>var countDownDate = new Date("Dec 25, 2022 00:01:00").getTime();
+    var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+    </script>
+
+<Body background="images/block.png"
+    
+
+
+
+
+</body>
+</html>
